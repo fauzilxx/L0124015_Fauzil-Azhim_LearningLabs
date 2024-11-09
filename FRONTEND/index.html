@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="Assets/Css/custom.css" />
+    <title>Kesenian Indonesia</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container-fluid cover-all">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+          <div class="container">
+            <a class="navbar-brand fw-semibold" href="#"
+              >"<span class="text-orange">NUSANTARA</span>"</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link actived" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="content.html">Eksplorasi</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="feedback.html">Feedback</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+              <button class="btn btn-outline-warning">Search</button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div
+            class="col-2 border aside position-fixed d-none d-lg-block bg-light"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center vh-100"
+            >
+              <div class="text-center px-5 w-100">
+                <h1 class="mb-5">Menu</h1>
+                <ul class="menu-ul">
+                  <li class="list-menu rounded mb-4 py-1">
+                    <a
+                      href="content.html"
+                      class="text-decoration-none text-black fw-semibold"
+                      >Eksplorasi</a
+                    >
+                  </li>
+                  <li class="list-menu rounded mb-4 py-1">
+                    <a
+                      href="#galeri"
+                      class="text-decoration-none text-black fw-semibold"
+                      >Galeri Seni</a
+                    >
+                  </li>
+                  <li class="list-menu rounded mb-4 py-1">
+                    <a
+                      href="feedback.html#inputfeedback"
+                      class="text-decoration-none text-black fw-semibold"
+                      >Beri Feedbak</a
+                    >
+                  </li>
+                  <li class="list-menu rounded mb-4 py-1">
+                    <a
+                      href="feedback.html#viewfeedback"
+                      class="text-decoration-none text-black fw-semibold"
+                      >Lihat Feedback</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 col-12 main mt-5 ps-2 ps-sm-0">
+            <div class="container-fluid bg-custom">
+              <div class="container vh-lg-100">
+                <div class="row">
+                  <div class="col-md-5 mt-5 mt-md-0 d-flex align-items-center">
+                    <div class="pe-md-5 text-center text-md-start">
+                      <div class="limit rounded d-none d-md-block"></div>
+                      <div class="py-md-3">
+                        <h1>Pesona Kesenian Daerah Nusantara</h1>
+                        <p>
+                          Melestarikan Warisan Budaya melalui Seni dan Kreativitas.
+                        </p>
+                      </div>
+                      <a href="#eksplorasi" class="btn btn-outline-secondary mt-5 d-none d-md-inline"
+                        >Eksplorasi Budaya</a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-7 d-flex justify-content-center">
+                    <img
+                      class="img-fluid img-cover"
+                      src="Assets/Images/img-cover.png"
+                      alt="Tari"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid bg-custom py-5" id="about">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 col-12 d-flex align-items-center">
+                    <div>
+                      <h5 class="text-secondary">BERAGAM</h5>
+                      <h1>Kesenian Tradisional Daerah Di Nusantara</h1>
+                      <div class="limit rounded my-4"></div>
+                      <p>
+                        Indonesia memiliki kekayaan seni dan budaya yang luar biasa, mulai dari tarian tradisional yang dinamis, musik khas yang memukau, hingga kerajinan tangan yang kaya akan makna dan sejarah.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-12">
+                    <div class="row">
+                      <div class="col-sm-6 col-12 px-3 mb-5">
+                        <h3 class="text-orange">
+                          <i class="bi bi-person-raised-hand"></i>
+                        </h3>
+                        <h3>Tari</h3>
+                        <p>
+                          Tarian tradisional Indonesia mencerminkan kekayaan budaya dan nilai-nilai kearifan lokal yang hidup di setiap daerah. Setiap gerakan, kostum, dan musik pengiringnya memiliki makna tersendiri.
+                        </p>
+                      </div>
+                      <div class="col-sm-6 col-12 px-3 mb-5">
+                        <h3 class="text-orange">
+                          <i class="bi bi-music-note-list"></i>
+                        </h3>
+                        <h3>Musik</h3>
+                        <p>
+                          Musik tradisional Indonesia penuh dengan harmoni alat musik khas. Setiap alunan nada mencerminkan jiwa masyarakat setempat dan menggambarkan suasana hati, mulai dari kebahagiaan hingga kesedihan.
+                        </p>
+                      </div>
+                      <div class="col-sm-6 col-12 px-3 mb-5">
+                        <h3 class="text-orange">
+                          <i class="bi bi-tv"></i>
+                        </h3>
+                        <h3>Pertunjukan</h3>
+                        <p>
+                          Pertunjukan tradisional seperti wayang kulit dan ketoprak menyuguhkan cerita-cerita epik, mitologi, dan nilai moral yang sarat makna. Dengan perpaduan antara seni peran, musik, dan cerita yang dalam, pertunjukan ini menjadi sarana edukasi, hiburan, dan pemelihara budaya.
+                        </p>
+                      </div>
+                      <div class="col-sm-6 col-12 px-3 mb-5">
+                        <h3 class="text-orange">
+                          <i class="bi bi-card-checklist"></i>
+                        </h3>
+                        <h3>Lainnya</h3>
+                        <p>
+                          Selain tarian, musik, dan pertunjukan, Indonesia memiliki beragam bentuk kesenian lain yang tak kalah memukau. Dari seni rupa tradisional, seperti seni lukis dan ukiran, hingga permainan tradisional yang diwariskan dari generasi ke generasi,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid bg-custom" id="galeri">
+              <div class="container py-5">
+                <div class="d-flex justify-content-center">
+                  <div class="galeri-underline mb-5">
+                    <h2 class="text-center">"Galeri Seni Nusantara"</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#reog">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/Reog.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Reog Ponorogo</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Jawa Timur.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#kecak">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/kecak.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Tari Kecak</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Bali.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#kuda">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/kuda.png"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Kuda Lumping</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Jawa.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#gamelan">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/gamelan.jpeg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Gamelan</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Jawa, dan Bali.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#saman">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/saman.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Tari Saman</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Aceh.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#taci">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/taci.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Peresean</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Lombok NTB.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#wayang">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/wayang.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Wayang Kulit</h5>
+                          <p class="card-text">
+                            Berasal Daeri Daerah Jawa.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-xl-3 col-md-4 mb-4">
+                    <a class="text-decoration-none" href="content.html#lenong">
+                      <div class="card card-seni">
+                        <img
+                          class="card-img-top"
+                          src="Assets/Images/lenong.jpg"
+                          alt="reog"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-text">Lenong</h5>
+                          <p class="card-text">
+                            Berasal Dari Daerah Betawi, Jakarta.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid bg-custom py-5 py-lg-0" id="eksplorasi">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="Assets/Images/Untitled design.png" class="img-fluid img-ragam" alt="">
+                  </div>
+                  <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                      <div class="limit rounded mb-3"></div>
+                      <h1>Eksplorasi Budaya Kesenian Nusantara</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis explicabo optio cum veniam cumque corrupti consequuntur. Nihil placeat doloremque natus sunt voluptate rem veritatis officiis pariatur laudantium corrupti impedit veniam blanditiis cum, ducimus error totam nesciunt deleniti accusantium debitis tenetur.</p>
+                      <a href="content.html" class="btn btn-outline-secondary">Baca Lebih Banyak</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <footer class="text-center bg-light fw-semibold py-2">Learning Labs 2024 L0124015 Fauzil Azhim</footer>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
